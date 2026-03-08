@@ -30,6 +30,8 @@
 <p>Rp60.000 — 1x revisi ringan</p>
 <p>Rp80.000 — 2x revisi</p>
 
+<button onclick="openPopup('TikTok')">Pesan</button>
+
 </div>
 
 <div class="rate-card">
@@ -38,6 +40,8 @@
 
 <p>Rp30.000 — short / review</p>
 <p>1x revisi ringan</p>
+
+<button onclick="openPopup('TikTok')">Pesan</button>
 
 </div>
 
@@ -48,6 +52,8 @@
 <p>Rp40.000 — tanpa revisi</p>
 <p>Rp55.000 — + revisi</p>
 
+<button onclick="openPopup('TikTok')">Pesan</button>
+  
 </div>
 
 <div class="rate-card">
@@ -57,9 +63,37 @@
 <p>Rp25.000 — 2 upload</p>
 <p>Rp15.000 — 1 upload</p>
 
+<button onclick="openPopup('TikTok')">Pesan</button>
+  
 </div>
 
 </section>
+
+<!-- POPUP RATE -->
+<div class="popup" id="ratePopup">
+
+<div class="popup-box">
+
+<h3 id="popupTitle">Pesan Endorse</h3>
+
+<div class="popup-option" onclick="selectOption(this)">
+45K — Video tanpa revisi
+</div>
+
+<div class="popup-option" onclick="selectOption(this)">
+60K — Video + 1x revisi
+</div>
+
+<div class="popup-option" onclick="selectOption(this)">
+80K — Video + 2x revisi
+</div>
+
+<button class="popup-buy" onclick="orderWA()">
+Pesan via WhatsApp
+</button>
+
+</div>
+</div>
 
 <section class="rules">
 
