@@ -1,59 +1,66 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Calmionix Portfolio</title>
+
 <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-<!-- LOADING SCREEN -->
+<!-- LOADING -->
 <div id="loader">
     <img src="assets/logo.jpeg" class="loader-logo">
-    <div class="progress-bar">
-        <div class="progress"></div>
+    <div class="loading-bar">
+        <div class="loading-progress"></div>
     </div>
 </div>
 
-<!-- HAMBURGER MENU -->
-<div class="menu-btn" onclick="toggleMenu()">☰</div>
+<!-- PARTICLE CANVAS -->
+<canvas id="particles"></canvas>
 
-<div class="menu" id="menu">
+<!-- HAMBURGER -->
+<div class="hamburger" onclick="toggleMenu()">☰</div>
+
+<nav id="menu">
 <a href="index.html">Home</a>
 <a href="server-list.html">List Server</a>
 <a href="rate-card.html">Rate Card</a>
-</div>
+</nav>
 
-<!-- MODE TOGGLE -->
-<button class="mode-toggle" onclick="toggleMode()">🌙</button>
+<!-- MODE -->
+<button class="mode-toggle" onclick="toggleMode()">☀</button>
 
-<!-- MAIN -->
 <section class="hero">
 
-<img src="assets/logo.jpeg" class="logo">
+<img src="assets/logo.jpeg" class="main-logo">
+
+<h1 class="title">CALMIONIX</h1>
+
+<p class="subtitle">
+Minecraft Content Creator & Server Promotion
+</p>
 
 <div class="buttons">
 
-<a href="server-list.html" class="btn">LIST SERVER</a>
+<a href="server-list.html" class="glow-btn">LIST SERVER</a>
 
-<a href="rate-card.html" class="btn">RATE CARD</a>
+<a href="rate-card.html" class="glow-btn">RATE CARD</a>
 
 </div>
 
-<!-- SOCIAL -->
 <div class="social">
 
-<a href="#" class="icon">TikTok<span>TikTok Calmionix</span></a>
-
-<a href="#" class="icon">YouTube<span>YouTube Calmionix</span></a>
-
-<a href="#" class="icon">Instagram<span>Instagram Calmionix</span></a>
-
-<a href="#" class="icon">Discord<span>Discord Community</span></a>
-
-<a href="#" class="icon">WhatsApp<span>Contact WhatsApp</span></a>
+<a class="social-icon">TikTok<span>TikTok Calmionix</span></a>
+<a class="social-icon">YouTube<span>YouTube Calmionix</span></a>
+<a class="social-icon">Instagram<span>Instagram Calmionix</span></a>
+<a class="social-icon">Discord<span>Discord Community</span></a>
+<a class="social-icon">WhatsApp<span>Contact WhatsApp</span></a>
 
 </div>
 
@@ -61,7 +68,7 @@
 
 <footer>
 
-<div class="gooey"></div>
+<div class="liquid"></div>
 
 <p>© Calmionix</p>
 
